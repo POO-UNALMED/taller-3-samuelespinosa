@@ -1,5 +1,5 @@
 package taller3.televisores;
-class Marca {
+public class Marca {
 	private String nombre;
 	Marca(String nombre){
 		this.nombre=nombre;
