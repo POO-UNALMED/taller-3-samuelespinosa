@@ -1,4 +1,5 @@
 package taller3.televisores;
+import taller3.televisores.*;
 
 public class TestTV {
 	public static void main(String[] args) {
