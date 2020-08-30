@@ -1,6 +1,7 @@
 package taller3.televisores;
 import taller3.televisores.*;
 public class TV {
+
 	private Marca marca;
 	private int canal=1;
 	private int precio=500;
@@ -8,6 +9,11 @@ public class TV {
 	private int volumen=1;
 	private Control control;
 	private static int numTV;
+
+	public TV(Marca marca, boolean estado){
+		this.marca=marca;
+		this.estado=estado;
+	}
 
 	public Marca getMarca() {
 		return marca;
@@ -81,8 +87,5 @@ public class TV {
 		if(estado && volumen>0) {volumen--;}
 	}
 
-	TV(Marca marca,boolean estado){
-		this.marca=marca;
-		this.estado=estado;
-	}
+	
 }
