@@ -60,8 +60,11 @@ public class TV {
 	public void setControl(Control control) {
 		this.control = control;
 	}
-	public int getNumTV(){
+	public static int getNumTV(){
 		return numTV;
+	}
+	public static int setNumTV(int numTV){
+		 this.numTV=numTV;
 	}
 	public boolean getEstado() {
 		return estado;
